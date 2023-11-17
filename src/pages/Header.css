@@ -1,0 +1,62 @@
+
+.headerArea{
+    width: 100%;
+    background-color: #d8d8d8;
+    height: 125px;
+}
+.navArea{
+    display: flex;  
+    flex-direction: row;
+    height: 100%;
+}
+.menuArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.logoArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.logoImg{
+    height: 50px;
+}
+
+.pesquisaArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+}
+
+.loginArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+    
+}
+.cidadesAera{
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 10px;
+    border:2px solid #D9D9D9;
+    background-color: #FFF;
+    color: #0065a1;
+}
+
+.btnLogin{
+    height: 50px;
+    width: 20%;
+    font-size: 14px;
+    border: 2px solid #D9D9D9 ;
+    border-radius: 10px ;
+    background-color: #FFF;
+    color: #0065a1;
+}
