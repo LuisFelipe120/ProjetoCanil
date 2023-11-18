@@ -1,0 +1,48 @@
+.content{
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+
+.informacaoContentArea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+.TituloPedArea h1{
+    color: #0065a1;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.SubtituloPedArea h3{
+    color: #0065a1;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.TituloPedArea{
+    text-align: center;
+    padding-top: 50px;
+}
+.SubtituloPedArea{
+    text-align: left;
+}
+.textPedArea p{
+    font-size: 15px;
+    color: #929292;
+}
+.AcessarArea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.informacaoPedArea h3{
+    color: #0065a1;
+    font-size: 20px;
+    font-weight: 400;
+}
+.sitePedArea a{
+    text-decoration: none;
+    color: #0065a1;
+}
