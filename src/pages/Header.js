@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.css';
 import LogoCanil from '../images/CANil.png'
 import {FaBars, FaUser,} from 'react-icons/fa'
+import { click } from '@testing-library/user-event/dist/click';
 function Header() {
+
+// const [cidade, setCidade]  = useState (["Presidente Prudente", "São Paulo"]) 
+const [cidades, setCidades] = useState('Presidente Prudente');
+
     return(
        <div className='ct'>
         <header className='headerArea'>
@@ -18,12 +23,12 @@ function Header() {
                 </div>
                 
                 <div className='pesquisaArea'>
-                    <select className='cidadesAera'>
-                        <option value="Busque uma cidade">Busque uma cidade</option>
-                        <option value="Cotia">Cotia</option>
-                        <option value="Brasilia">Brasília-DF</option>
-                        <option value="Presidente Prudente">Presidente Prudente</option>
+                    <label  >
+                    <select className='cidadesArea' name='cidades'  onChange={e => setCidades(e.target.value)} >
+                        <option value={"Presidente Prudente"}>Presidente Prudente</option>
+                        <option value={"Sao Paulo"} >Sao Paulo</option>
                     </select>
+                    </label>
                 </div>
                 <div className='loginArea'>
                     <button className='btnLogin'><FaUser/>Login</button>
